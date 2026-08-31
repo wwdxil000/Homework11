@@ -14,15 +14,9 @@ public class Main {
         int currentYear = LocalDate.now().getYear();
         if ((model == 0) && (year < currentYear)){
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if ((model == 0) && (year > currentYear)) {
-            System.out.println("Установите новую версию приложения для iOS по ссылке");
         } else if ((model == 1) && (year < currentYear)) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
-        else{
-            System.out.println("Установите новую версию приложения для Android по ссылке");
-        }
-
     }
     public static int getDeliveryDays(int distance) {
         int category;
