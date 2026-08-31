@@ -51,14 +51,8 @@ public class Main {
         int modelPhone = 0;
         int year1 = 2009;
         updatingPhone(modelPhone, year1);
-        modelPhone = 0;
-        year1 = 2027;
-        updatingPhone(modelPhone, year1);
         modelPhone = 1;
         year1 = 2009;
-        updatingPhone(modelPhone, year1);
-        modelPhone = 1;
-        year1 = 2027;
         updatingPhone(modelPhone, year1);
         // 3
         int deliveryDistance = 95;
